@@ -1,9 +1,9 @@
 export const SITE = {
-  website: "https://astropages-bilingual.pages.dev", // replace this with your deployed domain
-  author: "tosaki",
-  profile: "https://t0saki.com",
-  desc: "A bilingual blog based on Astro Paper",
-  title: "AstroPaper Bilingual",
+  website: "https://blog.peng.loc.cc", // replace this with your deployed domain
+  author: "Sunshine",
+  profile: "https://blog.peng.loc.cc",
+  desc: "人生旅途随笔",
+  title: "极简博客✍️",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -19,7 +19,7 @@ export const SITE = {
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/Singapore", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Asia/Shanghai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
 
 export const BLOG_PATH = "src/data/blog";
